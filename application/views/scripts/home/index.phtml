@@ -1,0 +1,10 @@
+<?php 
+if(Zend_Auth::getInstance()->hasIdentity())
+{
+echo $this->logout;
+}
+else
+{
+	echo "You have Logged Out!!!";
+}
+?>
